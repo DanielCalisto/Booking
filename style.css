@@ -3,4 +3,35 @@
     margin: 0;
     list-style: none;
     vertical-align: baseline;
+    font-family: segoe ui, roboto, helvetica, arial, sans-serif;
+}
+header {
+    background-color:#003580;
+}
+ #header-content {
+    padding: 20px 0;
+ }
+ .logo{
+    display:flex; 
+    justify-content: space-between;
+    padding: 10px;
+ }
+
+ .row-center{
+    display:flex;
+    align-items:center;
+ }
+ .logo p {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;   
+ }
+#button-language {
+    background-color: transparent;
+    cursor: pointer;
+}
+#button-language img{
+    width:25px;
+    border-radius: 50px;
+    
 }
