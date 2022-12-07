@@ -230,15 +230,17 @@ header {
   }
 .offers-banner button {
     background-color: #0071c2;
-    color: white;
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 3px;
     margin-top: 10px;
     border: none;
 }
-.offers-banner button {
-    text-decoration: none;
+.offers-banner button a {
+    text-decoration:none ;
     color: white;
-    
+
+}
+.img-app {
+    width: 150px;
 }
