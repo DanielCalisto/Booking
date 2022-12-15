@@ -143,6 +143,16 @@ header {
     font-size: 16px;
 }
 
+/* executa quando a largura maxima da tela for ate 600px */
+@media (max-width:600px) {
+    
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 250px;
+        
+    }
+}
+
 #form-filter-content
  {
     border: 2px solid #febb02;
