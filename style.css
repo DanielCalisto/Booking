@@ -1,3 +1,7 @@
+:root{
+    --brandcolor: #003580
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +11,7 @@
 }
 
 header {
-    background-color: #003580;
+    background-color: var(--brandcolor);
 }
 
 #header-content {
@@ -141,17 +145,7 @@ header {
     font-weight: bold;
     margin-top: 30px;
     font-size: 16px;
-}
-
-/* executa quando a largura maxima da tela for ate 600px */
-@media (max-width:600px) {
-    
-    #form-filter-content {
-        flex-direction: column;
-        min-height: 250px;
-        
-    }
-}
+} 
 
 #form-filter-content
  {
@@ -514,3 +508,51 @@ footer > div > a {
 footer div:nth-child(2) {
     margin-top: 2rem;   
 }
+
+/* executa quando a largura maxima da tela for ate 600px */
+@media (max-width:900px) {
+    
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 250px;
+        
+    }
+    .offers-banner {
+        flex-direction: column;
+        min-height: 200px;
+        width:100%;
+        display: flex;
+        justify-content:space-around;
+
+    }
+    
+     .offers-list {
+        flex-direction: column;
+
+     }
+
+     .app-banner {
+        height: 200px;
+        width:100%;
+        display: flex;
+                
+}
+
+    .offers-banner button {
+        width: 25%;
+    }
+    
+    .app-banner button {
+        width: 35%;
+        margin-top: px;
+
+    }
+
+    .offers-list {
+        
+    }
+  
+}
+
+
+    
